@@ -1,0 +1,22 @@
+Package: ytinfomr
+Title: yt-dlp Wrapper Package for R
+Version: 0.0.0.9000
+Authors@R: person(given = "Chanyub",
+             family = "Park",
+             role = c("aut","cre"),
+             email = "mrchypark@gmail.com",
+             comment = c(ORCID = "0000-0001-6474-2570"))
+Description: yt-dlp is a youtube-dl fork based on the now inactive youtube-dlc. 
+            The main focus of this project is adding new features and patches 
+            while also keeping up to date with the original project.
+            ytinfomr is Wrapper package for R.
+License: CC0
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.1
+Imports: 
+    tibble
+Suggests: 
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
